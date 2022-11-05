@@ -78,7 +78,7 @@
     <section class="semester">
         <div class="container" style="padding: 0; width:60%; margin: 0;">
             <a href="../visitors/studentprofile.blade.php" class="btn btn-outline-secondary">New post</a>
-            <a href="#" class="btn btn-outline-secondary active">Files Uploaded</a>
+            <a href="" class="btn btn-outline-secondary active">Files Uploaded</a>
         </div>
         </section>
         <hr style="border: 1px solid aqua;">
