@@ -86,7 +86,7 @@
             $_SESSION['user'] = $username;
            
            ob_start();
-            header('location:archive_feed.html');
+            header('location:archive_feed.blade.php');
             ob_flush();
         }
         else

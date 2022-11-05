@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body>
+<body style="background-image: radial-gradient(circle, #a2c0ec, #76cef3, #51dae4, #62e1c2, #97e396);">
     <h1 align="center">Student Information</h1>
     <a href="{{url('user/create')}}" style="display:block;" align="center">add users here &#8594;</a><br><br>
-    <a href="/">Use this. This one is a better link &#8594;</a>
+    <a href="/">Redirect to index &#8594;</a>
     <table border="1" align="center">
         <tr>
             <th>ID</th>

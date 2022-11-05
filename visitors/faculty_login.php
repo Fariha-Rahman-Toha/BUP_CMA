@@ -86,7 +86,7 @@
             $_SESSION['user'] = $username;
            
            ob_start();
-            header('location:facultyProfile.html');
+            header('location:facultyProfile.blade.php');
             ob_flush();
         }
         else
