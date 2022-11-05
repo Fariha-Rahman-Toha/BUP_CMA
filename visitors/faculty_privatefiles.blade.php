@@ -19,43 +19,43 @@
     <div class="m-4">            
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
             <div class="container-fluid">
-                <a href="../visitors/home.html" class="navbar-brand"><img src="../images/logo.png" style="height: 80px;width:100%;" class="logo-resize img-responsive"></a>
+                <a href="../visitors/home.blade.php" class="navbar-brand"><img src="../images/logo.png" style="height: 80px;width:100%;" class="logo-resize img-responsive"></a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav">
     
-                        <a href="../visitors/home.html" class="nav-item nav-link link-light">Home</a>
-                        <a href="../user/studentprofile.html" class="nav-item nav-link link-light">Profile</a>
+                        <a href="../visitors/home.blade.php" class="nav-item nav-link link-light">Home</a>
+                        <a href="../user/studentprofile.blade.php" class="nav-item nav-link link-light">Profile</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle link-light" data-bs-toggle="dropdown">Course Materials</a>
                             <div class="dropdown-menu">
-                                <a href="../user/sem1coursematerial.html" class="dropdown-item">1st Semester</a>
-                                <a href="../user/sem2coursematerial.html" class="dropdown-item">2nd Semester</a>
-                                <a href="../user/sem3coursematerial.html" class="dropdown-item">3rd Semester</a>
-                                <a href="../user/sem4coursematerial.html" class="dropdown-item">4th Semester</a>
-                                <a href="../user/sem5coursematerial.html" class="dropdown-item">5th Semester</a>
-                                <a href="../user/sem6coursematerial.html" class="dropdown-item">6th Semester</a>
-                                <a href="../user/sem7coursematerial.html" class="dropdown-item">7th Semester</a>
-                                <a href="../user/sem8coursematerial.html" class="dropdown-item">8th Semester</a>
+                                <a href="../user/sem1coursematerial.blade.php" class="dropdown-item">1st Semester</a>
+                                <a href="../user/sem2coursematerial.blade.php" class="dropdown-item">2nd Semester</a>
+                                <a href="../user/sem3coursematerial.blade.php" class="dropdown-item">3rd Semester</a>
+                                <a href="../user/sem4coursematerial.blade.php" class="dropdown-item">4th Semester</a>
+                                <a href="../user/sem5coursematerial.blade.php" class="dropdown-item">5th Semester</a>
+                                <a href="../user/sem6coursematerial.blade.php" class="dropdown-item">6th Semester</a>
+                                <a href="../user/sem7coursematerial.blade.php" class="dropdown-item">7th Semester</a>
+                                <a href="../user/sem8coursematerial.blade.php" class="dropdown-item">8th Semester</a>
                             </div>
                         </div>
-                        <a href="../user/books.html" class="nav-item nav-link link-light" >Books</a>
-                        <a href="../user/assignment.html" class="nav-item nav-link link-light">Assignment</a>                            
-                        <a href="../user/routine.html" class="nav-item nav-link link-light">Routine</a>                            
-                        <a href="../user/questions.html" class="nav-item nav-link link-light">Question</a>
+                        <a href="../user/books.blade.php" class="nav-item nav-link link-light" >Books</a>
+                        <a href="../user/assignment.blade.php" class="nav-item nav-link link-light">Assignment</a>                            
+                        <a href="../user/routine.blade.php" class="nav-item nav-link link-light">Routine</a>                            
+                        <a href="../user/questions.blade.php" class="nav-item nav-link link-light">Question</a>
                         
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle link-light" data-bs-toggle="dropdown">Others</a>
                             <div class="dropdown-menu">
-                                <a href="../user/notice.html" class="dropdown-item">Noticeboard</a>
+                                <a href="../user/notice.blade.php" class="dropdown-item">Noticeboard</a>
                             </div>
                         </div>
                     </div>
                     
                     <div class="navbar-nav">
-                        <a href="../visitors/index.html" class="nav-item nav-link">Log Out</a>
+                        <a href="../visitors/index.blade.php" class="nav-item nav-link">Log Out</a>
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@
     </div>
     <section class="semester">
         <div class="container" style="text-align: center; width:70%">
-            <h4><b>Name: </b> Md. Jaber Al-Nahian</h4>
+        <h4><b>Name: </b> Md. Hasan Al Banna</h4>
             <h5><b>Courses Taught:</b></h5>
             <div>
                 <div class="panel-body" >
@@ -85,7 +85,7 @@
                                 </div>
                             </li>
                             <li>
-                                <span style="font-family: georgia,times new roman, times, serif; font-size: small;">Database Management System (ICE-2205)</span>
+                                <span style="font-family: georgia,times new roman, times, serif; font-size: small;">Data Structure(ICE-2203)</span>
                                 <span style="white-space: pre;"></span>
                                 <br>
                             </li>
@@ -95,12 +95,7 @@
                                 <br>
                             </li>
                             <li>
-                                <span style="font-family: georgia,times new roman, times, serif; font-size: small;">Software and Requirements Engineering (ICE 3201)</span>
-                                <span style=" white-space: pre;"></span>
-                                <br>
-                            </li>
-                            <li>
-                                <span style="font-family: georgia,times new roman, times, serif; font-size: small;">Software and Requirements Engineering Lab(ICE 3202)</span>
+                                <span style="font-family: georgia,times new roman, times, serif; font-size: small;">Web Technologies (ICE 3209)</span>
                                 <span style=" white-space: pre;"></span>
                                 <br>
                             </li>
@@ -114,10 +109,10 @@
     </section>
     <section class="semester">
         <div class="container" style="padding: 0; width:60%; margin: 0;">
-            <a href="../visitors/facultyProfile.html" class="btn btn-outline-secondary ">Upload files</a>
-            <a href="../visitors/facultyprofileupload.php" class="btn btn-outline-secondary">Files Uploaded</a>
-            <a href="../visitors/faculty_privatefiles.html" class="btn btn-outline-secondary active">Upload Private files</a>
-            <a href="../visitors/facultypostarchive.php" class="btn btn-outline-secondary">Archived Files</a>            
+            <a href="../visitors/facultyProfile.blade.php" class="btn btn-outline-secondary ">Upload files</a>
+            <a href="../visitors/facultyprofileupload.blade.php" class="btn btn-outline-secondary">Files Uploaded</a>
+            <a href="../visitors/faculty_privatefiles.blade.php" class="btn btn-outline-secondary active">Upload Private files</a>
+            <a href="../visitors/facultypostarchive.blade.php" class="btn btn-outline-secondary">Archived Files</a>            
         </div>
         </section>
         <hr style="border: 1px solid aqua;">
